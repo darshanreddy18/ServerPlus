@@ -1,0 +1,7 @@
+services:
+  serverplus:
+    build: .
+    container_name: serverplus-container
+    ports:
+      - "8080:80"
+    restart: unless-stopped
