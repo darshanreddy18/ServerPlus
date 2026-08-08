@@ -38,3 +38,5 @@ Build the Docker image:
 
 ```bash
 docker build -t serverplus:v1 .
+
+ServerPlus CI/CD pipeline tested successfully.
